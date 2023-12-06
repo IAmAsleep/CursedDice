@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="dice.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35d24f4a87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Cursed Dice</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rec.html">Recommendations</a></li>
+                <li><a href="campaign.html">My Campaign</a></li>
+                <li><a href="dices.html">Virtual Dices</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="center-text">Contact Us</h2>
+        <div class="container-content">
+            <form action="#">
+                <div>
+                    <input type="text" placeholder="Name" name="name" required>
+                </div>
+                <div>
+                    <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div>
+                    <select name="reason" id="reason" required>
+                        <option value="">Reason</option>
+                        <option value="misinformation">Misinformation</option>
+                        <option value="suggestion">Suggestion</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea name="textReason" placeholder="Explain" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="font-sm center-text">&copy;2023 Cursed Dice. All rights reserved.</p>
+        <i class="fa-brands fa-reddit"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </footer>
+</body>
+
+</html>
